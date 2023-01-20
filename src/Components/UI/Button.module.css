@@ -1,0 +1,23 @@
+.button {
+  outline: none;
+  border: none;
+  background-color: #f5ad29;
+  color: #1c2321;
+  font-family: Tahoma;
+  padding: 0.4rem 0.85rem;
+  border-radius: 0.5rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: #ff707e;
+}
+
+.button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}

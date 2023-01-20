@@ -1,0 +1,49 @@
+.mealsContent {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #1c2321;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  background-color: #ebffeb;
+  padding: 1rem;
+  min-width: 512px;
+}
+
+.meals {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.default {
+  background-color: #1c2321;
+  color: #7ec9bb;
+  font-family: Tahoma;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 8px rgba(28, 35, 33, 0.5);
+}
+
+.generateMealPlanButton {
+  border: 2px solid #1c2321 !important;
+  box-shadow: 0px 2px 8px rgba(28, 35, 33, 0.5) !important;
+}
+
+.listsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.didNotGenerate {
+  font-family: Tahoma;
+  background-color: #1c2321;
+  color: #7ec9bb;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  padding: 0.35rem 0.6rem;
+  max-height: 19px;
+}

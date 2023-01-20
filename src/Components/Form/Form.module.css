@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: Tahoma;
+  background-color: #1c2321;
+  padding: 1.5rem 1.5rem;
+  gap: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 8px rgba(28, 35, 33, 0.5);
+  width: 100%;
+  max-width: 500px;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.label {
+  color: #7ec9bb;
+  font-size: 1rem;
+}
+
+.input {
+  background-color: #ebffeb;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  font-family: inherit;
+  color: #1c2321;
+  flex: 1;
+}
+
+.select {
+  background-color: #ebffeb;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.inactive {
+  background-color: #ff707e;
+}
+
+.inactiveFormTitle {
+  font-family: Tahoma;
+  color: #7ec9bb;
+  align-self: center;
+  font-size: 1.25rem;
+}

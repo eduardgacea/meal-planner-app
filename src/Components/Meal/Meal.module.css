@@ -1,0 +1,47 @@
+.meal {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  font-family: Tahoma;
+  justify-content: space-between;
+  background-color: #1c2321;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 8px rgba(28, 35, 33, 0.5);
+  padding: 1.5rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-family: Tahoma;
+  color: #7ec9bb;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.ingredientsList {
+  list-style: inside circle;
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+  color: #ebffeb;
+  text-transform: capitalize;
+  font-size: 0.85rem;
+}
+
+.category {
+  color: #ebffeb;
+  font-size: 1.2rem;
+  margin: 0;
+}
