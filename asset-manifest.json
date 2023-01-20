@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/meal-planner/static/css/main.b4b283e0.css",
+    "main.js": "/meal-planner/static/js/main.be26f133.js",
+    "index.html": "/meal-planner/index.html",
+    "main.b4b283e0.css.map": "/meal-planner/static/css/main.b4b283e0.css.map",
+    "main.be26f133.js.map": "/meal-planner/static/js/main.be26f133.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4b283e0.css",
+    "static/js/main.be26f133.js"
+  ]
+}
